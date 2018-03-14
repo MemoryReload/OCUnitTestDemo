@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MotherFucker.xcodeproj">
+      location = "self:/Users/heping/Desktop/MotherFucker/OCUnitTestDemo.xcodeproj">
    </FileRef>
 </Workspace>
