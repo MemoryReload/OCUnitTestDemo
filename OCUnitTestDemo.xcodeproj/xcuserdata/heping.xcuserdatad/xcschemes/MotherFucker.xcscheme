@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "638781452046A680001EF8A2"
-               BuildableName = "MotherFucker.app"
-               BlueprintName = "MotherFucker"
-               ReferencedContainer = "container:MotherFucker.xcodeproj">
+               BuildableName = "OCUnitTestDemo.app"
+               BlueprintName = "OCUnitTestDemo"
+               ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6387815D2046A680001EF8A2"
-               BuildableName = "MotherFuckerTests.xctest"
-               BlueprintName = "MotherFuckerTests"
-               ReferencedContainer = "container:MotherFucker.xcodeproj">
+               BuildableName = "OCUnitTestDemoTests.xctest"
+               BlueprintName = "OCUnitTestDemoTests"
+               ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "638781452046A680001EF8A2"
-            BuildableName = "MotherFucker.app"
-            BlueprintName = "MotherFucker"
-            ReferencedContainer = "container:MotherFucker.xcodeproj">
+            BuildableName = "OCUnitTestDemo.app"
+            BlueprintName = "OCUnitTestDemo"
+            ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "638781452046A680001EF8A2"
-            BuildableName = "MotherFucker.app"
-            BlueprintName = "MotherFucker"
-            ReferencedContainer = "container:MotherFucker.xcodeproj">
+            BuildableName = "OCUnitTestDemo.app"
+            BlueprintName = "OCUnitTestDemo"
+            ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,9 +87,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "638781452046A680001EF8A2"
-            BuildableName = "MotherFucker.app"
-            BlueprintName = "MotherFucker"
-            ReferencedContainer = "container:MotherFucker.xcodeproj">
+            BuildableName = "OCUnitTestDemo.app"
+            BlueprintName = "OCUnitTestDemo"
+            ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

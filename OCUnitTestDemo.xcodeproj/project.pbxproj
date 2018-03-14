@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		6316F35D205124A800548C26 /* ViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
-		638781462046A680001EF8A2 /* MotherFucker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotherFucker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		638781462046A680001EF8A2 /* OCUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638781492046A680001EF8A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6387814A2046A680001EF8A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6387814C2046A680001EF8A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		638781552046A680001EF8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638781572046A680001EF8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		638781582046A680001EF8A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6387815E2046A680001EF8A2 /* MotherFuckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotherFuckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638781642046A680001EF8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E6D0A82057E906008BAF8D /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = MotherFuckerTests/OCMock.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -90,8 +90,8 @@
 		638781472046A680001EF8A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				638781462046A680001EF8A2 /* MotherFucker.app */,
-				6387815E2046A680001EF8A2 /* MotherFuckerTests.xctest */,
+				638781462046A680001EF8A2 /* OCUnitTestDemo.app */,
+				6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		638781452046A680001EF8A2 /* MotherFucker */ = {
+		638781452046A680001EF8A2 /* OCUnitTestDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 638781672046A680001EF8A2 /* Build configuration list for PBXNativeTarget "MotherFucker" */;
+			buildConfigurationList = 638781672046A680001EF8A2 /* Build configuration list for PBXNativeTarget "OCUnitTestDemo" */;
 			buildPhases = (
 				638781422046A680001EF8A2 /* Sources */,
 				638781432046A680001EF8A2 /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = MotherFucker;
+			name = OCUnitTestDemo;
 			productName = MotherFucker;
-			productReference = 638781462046A680001EF8A2 /* MotherFucker.app */;
+			productReference = 638781462046A680001EF8A2 /* OCUnitTestDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6387815D2046A680001EF8A2 /* MotherFuckerTests */ = {
+		6387815D2046A680001EF8A2 /* OCUnitTestDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6387816A2046A680001EF8A2 /* Build configuration list for PBXNativeTarget "MotherFuckerTests" */;
+			buildConfigurationList = 6387816A2046A680001EF8A2 /* Build configuration list for PBXNativeTarget "OCUnitTestDemoTests" */;
 			buildPhases = (
 				6387815A2046A680001EF8A2 /* Sources */,
 				6387815B2046A680001EF8A2 /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				6387816E2046B989001EF8A2 /* PBXTargetDependency */,
 			);
-			name = MotherFuckerTests;
+			name = OCUnitTestDemoTests;
 			productName = MotherFuckerTests;
-			productReference = 6387815E2046A680001EF8A2 /* MotherFuckerTests.xctest */;
+			productReference = 6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 638781412046A680001EF8A2 /* Build configuration list for PBXProject "MotherFucker" */;
+			buildConfigurationList = 638781412046A680001EF8A2 /* Build configuration list for PBXProject "OCUnitTestDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				638781452046A680001EF8A2 /* MotherFucker */,
-				6387815D2046A680001EF8A2 /* MotherFuckerTests */,
+				638781452046A680001EF8A2 /* OCUnitTestDemo */,
+				6387815D2046A680001EF8A2 /* OCUnitTestDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		6387816E2046B989001EF8A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 638781452046A680001EF8A2 /* MotherFucker */;
+			target = 638781452046A680001EF8A2 /* OCUnitTestDemo */;
 			targetProxy = 6387816D2046B989001EF8A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,7 +430,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYSTEM_HEADER_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotherFucker.app/MotherFucker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCUnitTestDemo.app/OCUnitTestDemo";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -453,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYSTEM_HEADER_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotherFucker.app/MotherFucker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCUnitTestDemo.app/OCUnitTestDemo";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -461,7 +461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		638781412046A680001EF8A2 /* Build configuration list for PBXProject "MotherFucker" */ = {
+		638781412046A680001EF8A2 /* Build configuration list for PBXProject "OCUnitTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				638781652046A680001EF8A2 /* Debug */,
@@ -470,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		638781672046A680001EF8A2 /* Build configuration list for PBXNativeTarget "MotherFucker" */ = {
+		638781672046A680001EF8A2 /* Build configuration list for PBXNativeTarget "OCUnitTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				638781682046A680001EF8A2 /* Debug */,
@@ -479,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6387816A2046A680001EF8A2 /* Build configuration list for PBXNativeTarget "MotherFuckerTests" */ = {
+		6387816A2046A680001EF8A2 /* Build configuration list for PBXNativeTarget "OCUnitTestDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6387816B2046A680001EF8A2 /* Debug */,
