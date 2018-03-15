@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6316F35E205124A800548C26 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316F35D205124A800548C26 /* ViewControllerTests.m */; };
+		6386B840205A4EC600412628 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386B83F205A4EC600412628 /* OCMock.framework */; };
+		6386B841205A4F8200412628 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6386B83F205A4EC600412628 /* OCMock.framework */; };
 		6387814B2046A680001EF8A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387814A2046A680001EF8A2 /* AppDelegate.m */; };
 		6387814E2046A680001EF8A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387814D2046A680001EF8A2 /* ViewController.m */; };
 		638781512046A680001EF8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6387814F2046A680001EF8A2 /* Main.storyboard */; };
 		638781532046A680001EF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638781522046A680001EF8A2 /* Assets.xcassets */; };
 		638781562046A680001EF8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638781542046A680001EF8A2 /* LaunchScreen.storyboard */; };
 		638781592046A680001EF8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 638781582046A680001EF8A2 /* main.m */; };
-		63CBB86E20591CC900977D30 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CBB86D20591CC900977D30 /* OCMock.framework */; };
-		63CBB86F20591CCE00977D30 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63CBB86D20591CC900977D30 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				63CBB86F20591CCE00977D30 /* OCMock.framework in CopyFiles */,
+				6386B841205A4F8200412628 /* OCMock.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		6316F35D205124A800548C26 /* ViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
+		6386B83F205A4EC600412628 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		638781462046A680001EF8A2 /* OCUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638781492046A680001EF8A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6387814A2046A680001EF8A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		638781582046A680001EF8A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638781642046A680001EF8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63CBB86D20591CC900977D30 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CBB86E20591CC900977D30 /* OCMock.framework in Frameworks */,
+				6386B840205A4EC600412628 /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +114,8 @@
 		638781612046A680001EF8A2 /* OCUnitTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				63CBB86D20591CC900977D30 /* OCMock.framework */,
 				6316F35D205124A800548C26 /* ViewControllerTests.m */,
+				6386B83F205A4EC600412628 /* OCMock.framework */,
 				638781642046A680001EF8A2 /* Info.plist */,
 			);
 			path = OCUnitTestDemoTests;
@@ -378,10 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z86DT6Z4G7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OCUnitTestDemo",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = OCUnitTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -397,10 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z86DT6Z4G7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OCUnitTestDemo",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = OCUnitTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
