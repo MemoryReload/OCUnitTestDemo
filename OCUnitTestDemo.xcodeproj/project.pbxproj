@@ -33,7 +33,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
-			dstSubfolderSpec = 11;
+			dstSubfolderSpec = 16;
 			files = (
 				63CBB86F20591CCE00977D30 /* OCMock.framework in CopyFiles */,
 			);
