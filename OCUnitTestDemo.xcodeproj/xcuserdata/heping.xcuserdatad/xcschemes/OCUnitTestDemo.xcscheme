@@ -20,6 +20,20 @@
                ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6387815D2046A680001EF8A2"
+               BuildableName = "OCUnitTestDemoTests.xctest"
+               BlueprintName = "OCUnitTestDemoTests"
+               ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -38,6 +52,11 @@
                BlueprintName = "OCUnitTestDemoTests"
                ReferencedContainer = "container:OCUnitTestDemo.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "ViewControllerTests/testPerformanceExample">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

@@ -16,7 +16,6 @@
 		638781592046A680001EF8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 638781582046A680001EF8A2 /* main.m */; };
 		63CBB86E20591CC900977D30 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CBB86D20591CC900977D30 /* OCMock.framework */; };
 		63CBB86F20591CCE00977D30 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63CBB86D20591CC900977D30 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63E6D0B02057F07A008BAF8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387814D2046A680001EF8A2 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E6D0B02057F07A008BAF8D /* ViewController.m in Sources */,
 				6316F35E205124A800548C26 /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
