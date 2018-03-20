@@ -24,15 +24,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)transCentigradeWithFahrenheitTextField:(UITextField*)textField
+- (void)transCentigradeWithFahrenheit
 {
-    
+    CGFloat fDegree = self.fahrenheitTextField.text.floatValue;
+    CGFloat cDegree = (fDegree-32)/1.8;
+    self.centigradeLabel.text=[NSString stringWithFormat:@"%g",cDegree];
 }
 
 #pragma mark - UITextFieldDelegate
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [self transCentigradeWithFahrenheitTextField:self.fahrenheitTextField];
+    [self transCentigradeWithFahrenheit];
     return YES;
 }
 @end
