@@ -51,9 +51,15 @@
 }
 
 - (void)testPerformanceExample {
+    
     // This is an example of a performance test case.
     [self measureBlock:^{
+        [[[_fahrenheitTextField stub] andReturn:@"-40"] text];
+        [[_centigradeLabel expect] setText:@"-40"];
         // Put the code you want to measure the time of here.
+        [_vc textFieldShouldReturn:_vc.fahrenheitTextField];
+        [_fahrenheitTextField verify];
+        [_centigradeLabel verify];
     }];
 }
 
