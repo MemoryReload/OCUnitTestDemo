@@ -16,6 +16,7 @@
 		638781532046A680001EF8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638781522046A680001EF8A2 /* Assets.xcassets */; };
 		638781562046A680001EF8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638781542046A680001EF8A2 /* LaunchScreen.storyboard */; };
 		638781592046A680001EF8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 638781582046A680001EF8A2 /* main.m */; };
+		6398CAFC207CB0C800ED693A /* OCUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398CAFB207CB0C800ED693A /* OCUnitTestDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 638781452046A680001EF8A2;
 			remoteInfo = MotherFucker;
+		};
+		6398CAFE207CB0C800ED693A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6387813E2046A680001EF8A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638781452046A680001EF8A2;
+			remoteInfo = OCUnitTestDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +64,9 @@
 		638781582046A680001EF8A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638781642046A680001EF8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6398CAF9207CB0C800ED693A /* OCUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6398CAFB207CB0C800ED693A /* OCUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUnitTestDemoUITests.m; sourceTree = "<group>"; };
+		6398CAFD207CB0C800ED693A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6398CAF6207CB0C800ED693A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +100,7 @@
 			children = (
 				638781482046A680001EF8A2 /* OCUnitTestDemo */,
 				638781612046A680001EF8A2 /* OCUnitTestDemoTests */,
+				6398CAFA207CB0C800ED693A /* OCUnitTestDemoUITests */,
 				638781472046A680001EF8A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 			children = (
 				638781462046A680001EF8A2 /* OCUnitTestDemo.app */,
 				6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */,
+				6398CAF9207CB0C800ED693A /* OCUnitTestDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +139,15 @@
 				638781642046A680001EF8A2 /* Info.plist */,
 			);
 			path = OCUnitTestDemoTests;
+			sourceTree = "<group>";
+		};
+		6398CAFA207CB0C800ED693A /* OCUnitTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6398CAFB207CB0C800ED693A /* OCUnitTestDemoUITests.m */,
+				6398CAFD207CB0C800ED693A /* Info.plist */,
+			);
+			path = OCUnitTestDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +189,24 @@
 			productReference = 6387815E2046A680001EF8A2 /* OCUnitTestDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6398CAF8207CB0C800ED693A /* OCUnitTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6398CB00207CB0C800ED693A /* Build configuration list for PBXNativeTarget "OCUnitTestDemoUITests" */;
+			buildPhases = (
+				6398CAF5207CB0C800ED693A /* Sources */,
+				6398CAF6207CB0C800ED693A /* Frameworks */,
+				6398CAF7207CB0C800ED693A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6398CAFF207CB0C800ED693A /* PBXTargetDependency */,
+			);
+			name = OCUnitTestDemoUITests;
+			productName = OCUnitTestDemoUITests;
+			productReference = 6398CAF9207CB0C800ED693A /* OCUnitTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +221,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					6387815D2046A680001EF8A2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 638781452046A680001EF8A2;
+					};
+					6398CAF8207CB0C800ED693A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 638781452046A680001EF8A2;
@@ -195,6 +247,7 @@
 			targets = (
 				638781452046A680001EF8A2 /* OCUnitTestDemo */,
 				6387815D2046A680001EF8A2 /* OCUnitTestDemoTests */,
+				6398CAF8207CB0C800ED693A /* OCUnitTestDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +264,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6387815C2046A680001EF8A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6398CAF7207CB0C800ED693A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,6 +298,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6398CAF5207CB0C800ED693A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6398CAFC207CB0C800ED693A /* OCUnitTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -245,6 +313,11 @@
 			isa = PBXTargetDependency;
 			target = 638781452046A680001EF8A2 /* OCUnitTestDemo */;
 			targetProxy = 6387816D2046B989001EF8A2 /* PBXContainerItemProxy */;
+		};
+		6398CAFF207CB0C800ED693A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638781452046A680001EF8A2 /* OCUnitTestDemo */;
+			targetProxy = 6398CAFE207CB0C800ED693A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -450,6 +523,36 @@
 			};
 			name = Release;
 		};
+		6398CB01207CB0C800ED693A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z86DT6Z4G7;
+				INFOPLIST_FILE = OCUnitTestDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.OCUnitTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCUnitTestDemo;
+			};
+			name = Debug;
+		};
+		6398CB02207CB0C800ED693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z86DT6Z4G7;
+				INFOPLIST_FILE = OCUnitTestDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.OCUnitTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCUnitTestDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,6 +579,15 @@
 			buildConfigurations = (
 				6387816B2046A680001EF8A2 /* Debug */,
 				6387816C2046A680001EF8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6398CB00207CB0C800ED693A /* Build configuration list for PBXNativeTarget "OCUnitTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6398CB01207CB0C800ED693A /* Debug */,
+				6398CB02207CB0C800ED693A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

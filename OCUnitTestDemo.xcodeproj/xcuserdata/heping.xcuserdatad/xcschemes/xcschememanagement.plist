@@ -4,15 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>OCUnitTestDemo.xcscheme</key>
+		<key>OCUnitTestDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>OCUnitTestDemoTests.xcscheme</key>
+		<key>OCUnitTestDemoTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>OCUnitTestDemoUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>6387815D2046A680001EF8A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6398CAEA207C5C2600ED693A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6398CAF8207CB0C800ED693A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
